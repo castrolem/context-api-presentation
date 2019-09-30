@@ -2,6 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import './App.css'
 
+import { Header } from './Components/Header'
+
 import { Users } from './Screens/Users'
 import { About } from './Screens/About'
 import { Home } from './Screens/Home'
@@ -9,7 +11,7 @@ import { Home } from './Screens/Home'
 function App () {
   return (
     <Router>
-      <div className='App'>
+      <Header>
         <nav>
           <ul>
             <li>
@@ -23,6 +25,8 @@ function App () {
             </li>
           </ul>
         </nav>
+      </Header>
+      <div className='App'>
         <Route path='/' exact>
           <Home />
         </Route>

@@ -14,7 +14,6 @@ export const Users = () => {
   return (
     <>
       <div className='content'>
-        <h1>Users</h1>
         <nav>
           {USERS.map(user => (
             <button key={user.id} onClick={() => selectUser(user)}>
