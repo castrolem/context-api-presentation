@@ -1,28 +1,44 @@
 html,
 body {
-	font-size: 100%;
-	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: whitesmoke;
 }
 
 .App {
-	text-align: center;
-	padding: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+header {
+  background: darkblue;
+  box-shadow: 0 0.125rem 0.0625rem -0.0625rem rgba(0, 0, 0, 0.2),
+    0 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.14),
+    0 0.0625rem 0.1875rem 0 rgba(0, 0, 0, 0.12);
+  padding: 1rem;
+  text-align: center;
+}
+
+header a {
+  color: white;
 }
 
 .content {
-	padding: 1rem;
-	margin: 1rem auto;
-	border: .0625rem solid #bcbcbc;
-	box-shadow: 0 .125rem .0625rem -.0625rem rgba(0, 0, 0, .2), 0 .0625rem .0625rem 0 rgba(0, 0, 0, .14), 0 .0625rem .1875rem 0 rgba(0, 0, 0, .12)
+  padding: 1rem;
+  margin: 1rem auto;
+  background: white;
+  box-shadow: 0 0.125rem 0.0625rem -0.0625rem rgba(0, 0, 0, 0.2),
+    0 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.14),
+    0 0.0625rem 0.1875rem 0 rgba(0, 0, 0, 0.12);
 }
 
 nav ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
-	display: inline-block;
-	margin: 0 1rem;
+  display: inline-block;
+  margin: 0 1rem;
 }
