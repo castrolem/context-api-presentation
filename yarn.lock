@@ -4072,6 +4072,11 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
+faker@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/faker/-/faker-4.1.0.tgz#1e45bbbecc6774b3c195fad2835109c6d748cc3f"
+  integrity sha1-HkW7vsxndLPBlfrSg1EJxtdIzD8=
+
 fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
@@ -8617,7 +8622,20 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
 
-react-router@^5.1.1:
+react-router-dom@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.1.1.tgz#53caa089c291f64c1d597a52827b978b54d7c25d"
+  integrity sha512-r8R8H0Vt2ISqpk02rR6VZBLk+JZdR6pZV+h9K1y0ISh3/G4GGByNevYBS69x6czcOcWVRcZmXjwY8l9UBCKV+w==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    history "^4.9.0"
+    loose-envify "^1.3.1"
+    prop-types "^15.6.2"
+    react-router "5.1.1"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
+
+react-router@5.1.1, react-router@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-5.1.1.tgz#9d65f54795f938c0c5b69eaeef58728134ce7c7c"
   integrity sha512-ozTXqxKZsn4GfZqpG5rVFHSSxlNuDoMNxgyjM+mFJVhqlnPwwkRsAPkDm1PcNjBdYxMzqAhtz48HkQB6fSYaAQ==
