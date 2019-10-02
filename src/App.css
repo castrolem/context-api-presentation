@@ -43,3 +43,16 @@ nav li {
   display: inline-block;
   margin: 0 1rem;
 }
+
+.notifications {
+	padding: 1rem;
+	background-color: tomato;
+	color: white;
+
+}
+
+.notification:not(:last-of-type) {
+	border-bottom: 0.125rem solid white;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
